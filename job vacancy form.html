@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Vacancy Form</title>
+</head>
+<body>
+    <h3 align="center">JOB VACANCY FORM</h3>
+    <form action="">
+        <fieldset style="background-color: antiquewhite;">
+            <legend>ConpanyDetails</legend>
+            Company Name <input type="text"><br>
+            Company Type   
+            <input list="dataname" placeholder="Select Company type">
+            <datalist id="dataname">
+                <option value="Private"></option>
+                <option value="Public"></option>
+                <option value="Partnership"></option>
+                <option value="Soleproprietor"></option>
+            </datalist><br>
+            Company Email <input type="email"><br>
+            Company Mobile Number <input type="tel">
+        </fieldset>
+        <fieldset style="background-color: antiquewhite">
+            <legend>Address Details</legend>
+            Door No <input type="text"><br>
+            Locality <input type="text"><br>
+            city <input list="citynames">
+            <datalist id="citynames">
+                <option value="Kavali"></option>
+                <option value="Nellore"></option>
+                <option value="Guntur"></option>
+                <option value="Ongole"></option>
+            </datalist><br>
+            state <input list="statenames">
+            <datalist id="statenames">
+                <option value="Andhra pradesh"></option>
+                <option value="Telangana"></option>
+                <option value="Karnataka"></option>
+                <option value="TamilNadu"></option>
+            </datalist>
+        </fieldset>
+        <fieldset style="background-color: antiquewhite;">
+            <legend>Incharge1 Details</legend>
+            Name of the Employee <input type="text"><br>
+            Designation <input list="designation" placeholder="Select Designation">
+            <datalist id="designation">
+                <option value="PA"></option>
+                <option value="HR"></option>
+                <option value="Manager"></option>
+                <option value="Assistant Manager"></option>
+            </datalist><br>
+            Company Email <input type="email"><br>
+            Company Mobile Number <input type="tel">
+        </fieldset>
+        <fieldset style="background-color: antiquewhite;">
+            <legend>Incharge2 Details</legend>
+            Name of the Employee <input type="text"><br>
+            Designation <input list="designation" placeholder="Select Designation">
+            <datalist id="designation">
+                <option value="PA"></option>
+                <option value="HR"></option>
+                <option value="Manager"></option>
+                <option value="Assistant Manager"></option>
+            </datalist><br>
+            Company Email <input type="email"><br>
+            Company Mobile Number <input type="tel">
+        </fieldset><br>
+        <input type="submit" style="padding: 8px;">
+    </form>
+</body>
+</html>
